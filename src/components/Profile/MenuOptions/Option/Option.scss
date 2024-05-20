@@ -1,0 +1,19 @@
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+
+  > div {
+    display: flex;
+    align-items: center;
+
+    ion-icon {
+      font-size: 20px;
+      background-color: #f3f3f3;
+      padding: 10px;
+      border-radius: 10px;
+      margin-right: 10px;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.list-tasks {
+  padding: 10px;
+
+  > h3 {
+    margin-top: 20px;
+  }
+
+  &__no-found {
+    text-align: center;
+  }
+}

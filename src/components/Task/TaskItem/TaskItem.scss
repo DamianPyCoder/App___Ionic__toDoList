@@ -1,0 +1,27 @@
+.task-item {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 20%);
+  display: flex;
+  align-items: center;
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-right: 20px;
+
+    span:last-of-type {
+      margin-top: 15px;
+      font-size: 12px;
+      opacity: 0.4;
+    }
+  }
+
+  ion-checkbox {
+    width: 40px;
+    height: 35px;
+  }
+}
